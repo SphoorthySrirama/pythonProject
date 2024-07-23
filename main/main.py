@@ -17,7 +17,7 @@ db = SQLAlchemy(app)
 @dataclass
 class Product(db.Model):
     id: int
-    title: str
+    title: str 
     image: str
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=False)
